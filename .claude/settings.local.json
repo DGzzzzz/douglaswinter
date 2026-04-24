@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm uninstall *)",
+      "Bash(npm install *)",
+      "Bash(rm -f src/App.tsx src/index.tsx src/i18n.ts src/styles.ts src/react-app-env.d.ts src/reportWebVitals.ts src/setupTests.ts)",
+      "Bash(rm -rf src/themes src/containers src/Projeto)",
+      "Bash(rm -rf src/components/Avatar src/components/Titulo src/components/Paragrafo src/components/LanguageSwitcher)"
+    ]
+  }
+}

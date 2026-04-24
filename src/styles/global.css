@@ -1,0 +1,72 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --accent: #2a7b9b;
+  --accent-hover: #1e6080;
+  --accent-light: #e8f4f8;
+
+  --bg: #f0f8fc;
+  --bg-card: #ffffff;
+  --bg-btn: #2a7b9b;
+  --bg-btn-hover: #1e6080;
+  --bg-icon: rgba(42, 123, 155, 0.1);
+  --bg-icon-hover: rgba(42, 123, 155, 0.18);
+
+  --text-primary: #0d2a36;
+  --text-secondary: #4a7a8a;
+  --text-btn: #ffffff;
+
+  --border: #c0dce8;
+  --shadow: rgba(42, 123, 155, 0.12);
+  --shadow-hover: rgba(42, 123, 155, 0.22);
+  --avatar-ring: rgba(42, 123, 155, 0.45);
+  --avatar-ring-hover: rgba(42, 123, 155, 0.7);
+}
+
+[data-theme="dark"] {
+  --accent: #3d9dbf;
+  --accent-hover: #2a7b9b;
+  --accent-light: #0d2a36;
+
+  --bg: #0d1b24;
+  --bg-card: #152433;
+  --bg-btn: #1a4d61;
+  --bg-btn-hover: #236481;
+  --bg-icon: rgba(61, 157, 191, 0.12);
+  --bg-icon-hover: rgba(61, 157, 191, 0.22);
+
+  --text-primary: #e8f4f8;
+  --text-secondary: #7aaec0;
+  --text-btn: #e8f4f8;
+
+  --border: #1e3d50;
+  --shadow: rgba(0, 0, 0, 0.25);
+  --shadow-hover: rgba(0, 0, 0, 0.4);
+  --avatar-ring: rgba(255, 255, 255, 0.35);
+  --avatar-ring-hover: rgba(255, 255, 255, 0.6);
+}
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
