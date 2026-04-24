@@ -1,16 +1,40 @@
-# ☕ Projeto Portfolio
+# Portfolio — Douglas Winter
 
-Este é o repositório do meu Portfólio Pessoal, onde apresento minhas habilidades, projetos e informações profissionais. O portfólio é uma aplicação web desenvolvida com React e TypeScript, exibindo meus projetos e conectando aos dados da API do GitHub para mostrar minhas contribuições públicas. Além disso, o projeto inclui uma sidebar com links para redes sociais, botão para alterar o tema e linguagem da página.
+Repositório do meu portfólio pessoal. Layout no estilo link-tree, apresentando minhas informações profissionais, redes sociais e projetos. Desenvolvido com Vue 3 e Vite.
 
-# 📖 Tecnologias Utilizadas
+## Tecnologias
 
-- React: Biblioteca para construir a interface de usuário.
-- TypeScript: Superset de JavaScript que adiciona tipagem estática.
-- Styled-Components: Biblioteca para estilização com CSS-in-JS.
-- React-Router-Dom: Gerenciamento de rotas da aplicação.
-- i18next e react-i18next: Internacionalização da aplicação.
+- **Vue 3** — Composition API com `<script setup>`
+- **Vite** — Bundler e servidor de desenvolvimento
+- **TypeScript** — Tipagem estática
+- **Vue Router** — Navegação entre páginas (hash history)
+- **Vue I18n** — Internacionalização (PT-BR / EN)
+- **CSS custom properties** — Tema claro/escuro via variáveis CSS
 
-# ⚒️ Funcionalidades
+## Funcionalidades
 
-- Altera tema entre light e dark
-- Altera linguagem da página entre PT-BR e EN.
+- Tema claro e escuro com detecção automática da preferência do sistema
+- Alternância de idioma entre PT-BR e EN
+- Página de projetos acessível via botão na página principal
+- Layout responsivo
+
+## Estrutura
+
+```
+src/
+├── components/       # Avatar, SocialLinks, LanguageSwitcher, ThemeToggle, ProjectCard
+├── composables/      # useTheme (estado global do tema)
+├── i18n/             # Traduções PT-BR e EN
+├── pages/            # Home, Projects
+├── router/           # Configuração de rotas
+└── styles/           # CSS global e variáveis de tema
+```
+
+## Scripts
+
+```bash
+npm run dev        # Servidor de desenvolvimento
+npm run build      # Build de produção
+npm run preview    # Preview do build
+npm run typecheck  # Verificação de tipos TypeScript
+```
