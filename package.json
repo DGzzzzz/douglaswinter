@@ -11,7 +11,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
+    "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview"
   },
   "devDependencies": {
