@@ -7,7 +7,13 @@
           <i class="ri-arrow-left-s-line"></i>
           {{ t('back') }}
         </router-link>
-        <h1 class="title">{{ t('projects') }}</h1>
+        <div class="title-row">
+          <h1 class="title">{{ t('projects') }}</h1>
+          <div class="controls">
+            <LanguageSwitcher />
+            <ThemeToggle />
+          </div>
+        </div>
       </div>
 
       <div class="grid">
@@ -20,11 +26,6 @@
           :vercel-link="project.vercel"
         />
       </div>
-
-      <footer class="controls">
-        <LanguageSwitcher />
-        <ThemeToggle />
-      </footer>
 
     </div>
   </main>
@@ -103,6 +104,12 @@ const projects = [
   gap: 0.5rem;
 }
 
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .back-btn {
   display: inline-flex;
   align-items: center;
@@ -137,10 +144,8 @@ const projects = [
 
 .controls {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 0.75rem;
-  padding-bottom: 1rem;
 }
 
 @media (max-width: 540px) {

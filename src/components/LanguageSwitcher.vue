@@ -18,8 +18,12 @@ const switchLang = () => {
 .lang-btn {
   background: var(--bg-icon);
   border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 0.35rem 0.9rem;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   color: var(--text-primary);
   font-size: 0.75rem;

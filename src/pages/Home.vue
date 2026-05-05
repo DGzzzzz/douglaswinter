@@ -10,6 +10,11 @@
 
       <SocialLinks />
 
+      <div class="controls">
+        <LanguageSwitcher />
+        <ThemeToggle />
+      </div>
+
       <div class="divider"></div>
 
       <section class="bio">
@@ -41,11 +46,6 @@
           <span class="contact-email">douglaswinter75@gmail.com</span>
         </div>
       </section>
-
-      <footer class="controls">
-        <LanguageSwitcher />
-        <ThemeToggle />
-      </footer>
 
     </div>
   </main>
@@ -199,7 +199,5 @@ const { t } = useI18n()
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
-  padding-top: 0.25rem;
-  padding-bottom: 1rem;
 }
 </style>
