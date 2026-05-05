@@ -15,6 +15,7 @@ export default createI18n({
       projects: 'Projects',
       back: 'Back',
       project_titles: {
+        medicamentos_pets: 'Pet Medications',
         almoexpert: 'Almoexpert — Regression Test Suite',
         efood: 'Efood',
         focalpoint: 'FocalPoint',
@@ -23,6 +24,8 @@ export default createI18n({
         login_api: 'Login API'
       },
       project_descriptions: {
+        medicamentos_pets:
+          'Application for managing pet medications. Built with Flutter, Dart and Supabase.',
         almoexpert:
           'Automated regression testing suite for the Almoexpert software. Built with Java, Selenium, and JUnit.',
         efood:
@@ -48,6 +51,7 @@ export default createI18n({
       projects: 'Projetos',
       back: 'Voltar',
       project_titles: {
+        medicamentos_pets: 'Medicamentos para Pets',
         almoexpert: 'Almoexpert — Bateria de Testes de Regressão',
         efood: 'Efood',
         focalpoint: 'FocalPoint',
@@ -56,6 +60,7 @@ export default createI18n({
         login_api: 'Login API'
       },
       project_descriptions: {
+        medicamentos_pets: 'Aplicativo para gerenciamento de medicamentos para pets. Desenvolvido com Flutter, Dart e Supabase.',
         almoexpert:
           'Bateria de testes de regressão automatizados para o software Almoexpert. Desenvolvida com Java, Selenium e JUnit.',
         efood:

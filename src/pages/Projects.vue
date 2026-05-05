@@ -40,6 +40,12 @@ const { t } = useI18n()
 
 const projects = [
   {
+    key: 'medicamentos_pets',
+    titleKey: 'project_titles.medicamentos_pets',
+    descKey: 'project_descriptions.medicamentos_pets',
+    github: 'https://github.com/DGzzzzz/app_medicamentos_pets'
+  },
+  {
     key: 'almoexpert',
     titleKey: 'project_titles.almoexpert',
     descKey: 'project_descriptions.almoexpert',
