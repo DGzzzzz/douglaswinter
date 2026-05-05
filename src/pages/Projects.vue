@@ -78,12 +78,6 @@ const projects = [
     descKey: 'project_descriptions.todo_fullstack',
     github: 'https://github.com/DGzzzzz/ToDo-FullStack'
   },
-  {
-    key: 'login_api',
-    titleKey: 'project_titles.login_api',
-    descKey: 'project_descriptions.login_api',
-    github: 'https://github.com/DGzzzzz/login'
-  }
 ]
 </script>
 

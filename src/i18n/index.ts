@@ -7,10 +7,11 @@ export default createI18n({
     en: {
       about_me: 'About me',
       description:
-        "Hi! I'm Douglas Winter, a developer passionate about technology. I currently work as a QA Analyst and am studying Systems Analysis and Development at the Federal Institute of RS. I have experience with Java, Spring, JPA, and SQL, and I'm continuously developing my full-stack skills with TypeScript, React, and Vue.",
-      join_discord: 'Discord community',
-      community_discord:
-        "Join the community I'm building on Discord. There we can exchange ideas, clear up doubts, and connect with other people. Click the Discord icon to join.",
+        "Hi! I'm Douglas Winter, developer and QA Analyst at Apollus EHS. I study Systems Analysis and Development at the Federal Institute of RS. In quality assurance, I work with manual testing, API validation with Postman, and critical flow mapping. In development, I have experience with Java, Spring Boot and SQL on the backend, TypeScript with React, Next.js and Vue on the frontend, Flutter for mobile, and Node.js with Docker.",
+      freelance_title: 'Available for Freelance',
+      freelance_description:
+        "I'm open to freelance projects — web development, mobile apps, API integrations, or test automation. If you have a project in mind, feel free to reach out.",
+      freelance_cta: 'Get in touch',
       developer: 'Developer & QA Analyst',
       projects: 'Projects',
       back: 'Back',
@@ -21,7 +22,6 @@ export default createI18n({
         focalpoint: 'FocalPoint',
         todo_fullstack: 'ToDo FullStack',
         exoplanets: 'Exoplanets Exploration — NASA Hackathon',
-        login_api: 'Login API'
       },
       project_descriptions: {
         medicamentos_pets:
@@ -35,18 +35,17 @@ export default createI18n({
         todo_fullstack:
           'Full-stack task list app with a Node.js/Express backend and HTML/CSS/JS frontend. Docker was used for a MySQL image.',
         exoplanets:
-          'Web app that consumes the NASA API to display exoplanet information. Built with Three.js and Vite.',
-        login_api:
-          'REST API with JWT authentication, MVC architecture, and PostgreSQL. Built with Java and Spring Boot.'
+          'Web app that consumes the NASA API to display exoplanet information. Built with Three.js and Vite.'
       }
     },
     pt: {
       about_me: 'Sobre mim',
       description:
-        'Olá! Sou Douglas Winter, desenvolvedor apaixonado por tecnologia. Atualmente trabalho como Analista de QA e curso Análise e Desenvolvimento de Sistemas no Instituto Federal do RS. Tenho experiência com Java, Spring, JPA e SQL, e sigo desenvolvendo habilidades no full-stack com TypeScript, React e Vue.',
-      join_discord: 'Comunidade do Discord',
-      community_discord:
-        'Junte-se na comunidade que estou construindo no Discord. Lá podemos trocar uma ideia, tirar dúvidas e se conectar com outras pessoas. Clique no ícone do Discord para entrar.',
+        'Olá! Sou Douglas Winter, desenvolvedor e Analista de QA na Apollus EHS. Curso Análise e Desenvolvimento de Sistemas no Instituto Federal do RS. Na área de qualidade, atuo com testes manuais, validação de APIs com Postman e mapeamento de fluxos críticos. No desenvolvimento, tenho experiência com Java, Spring Boot e SQL no back-end, TypeScript com React, Next.js e Vue no front-end, Flutter para mobile e Node.js com Docker.',
+      freelance_title: 'Disponível para Freelance',
+      freelance_description:
+        'Estou aberto a projetos freelance — desenvolvimento web, apps mobile, integrações de API ou automação de testes. Se você tem um projeto em mente, fique à vontade para entrar em contato.',
+      freelance_cta: 'Entrar em contato',
       developer: 'Desenvolvedor & Analista de QA',
       projects: 'Projetos',
       back: 'Voltar',
@@ -57,7 +56,6 @@ export default createI18n({
         focalpoint: 'FocalPoint',
         todo_fullstack: 'ToDo FullStack',
         exoplanets: 'Exoplanets Exploration — Hackathon NASA',
-        login_api: 'Login API'
       },
       project_descriptions: {
         medicamentos_pets: 'Aplicativo para gerenciamento de medicamentos para pets. Desenvolvido com Flutter, Dart e Supabase.',
@@ -70,9 +68,7 @@ export default createI18n({
         todo_fullstack:
           'Aplicação web de lista de tarefas, com backend Node.js/Express e frontend com HTML, CSS e JS. Utilizado Docker para gerar imagem do MySQL.',
         exoplanets:
-          'Aplicação web que consome a API da NASA para exibir informações sobre exoplanetas. Construída com Three.js e Vite.',
-        login_api:
-          'API REST com autenticação JWT, arquitetura MVC e PostgreSQL. Desenvolvida com Java e Spring Boot.'
+          'Aplicação web que consome a API da NASA para exibir informações sobre exoplanetas. Construída com Three.js e Vite.'
       }
     }
   }

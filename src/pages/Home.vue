@@ -27,12 +27,19 @@
 
       <div class="divider"></div>
 
-      <section class="discord">
+      <section class="freelance">
         <h2 class="section-label">
-          <i class="ri-discord-fill discord-icon"></i>
-          {{ t('join_discord') }}
+          <i class="ri-briefcase-4-line freelance-icon"></i>
+          {{ t('freelance_title') }}
         </h2>
-        <p class="bio-text">{{ t('community_discord') }}</p>
+        <p class="bio-text">{{ t('freelance_description') }}</p>
+        <div class="contact-row">
+          <a href="https://mail.google.com/mail/?view=cm&to=douglaswinter75@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-btn">
+            <i class="ri-mail-line"></i>
+            <span>{{ t('freelance_cta') }}</span>
+          </a>
+          <span class="contact-email">douglaswinter75@gmail.com</span>
+        </div>
       </section>
 
       <footer class="controls">
@@ -109,9 +116,43 @@ const { t } = useI18n()
   gap: 0.4rem;
 }
 
-.discord-icon {
+.freelance-icon {
   font-size: 0.9rem;
-  color: #5865f2;
+  color: var(--accent);
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50px;
+  font-size: 0.825rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.22s ease;
+  box-shadow: 0 2px 10px var(--shadow);
+}
+
+.contact-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--shadow-hover);
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+.contact-email {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
 }
 
 .bio-text {
