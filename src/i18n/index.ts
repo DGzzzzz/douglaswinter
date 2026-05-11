@@ -7,7 +7,7 @@ export default createI18n({
     en: {
       about_me: 'About me',
       description:
-        "Hi! I'm Douglas Winter, developer and QA Analyst at Apollus EHS. I study Systems Analysis and Development at the Federal Institute of RS. In quality assurance, I work with manual testing, API validation with Postman, and critical flow mapping. In development, I have experience with Java, Spring Boot and SQL on the backend, TypeScript with React, Next.js and Vue on the frontend, Flutter for mobile, and Node.js with Docker.",
+        "Hi! I'm Douglas Winter, developer and QA Analyst. I study Systems Analysis and Development at the Federal Institute of RS. In quality assurance, I work with manual testing, API validation with Postman, and critical flow mapping. In development, I have experience with Java, Spring Boot and SQL on the backend, TypeScript with React, Next.js and Vue on the frontend, Flutter for mobile.",
       freelance_title: 'Available for Freelance',
       freelance_description:
         "I'm open to freelance projects — web development, mobile apps, API integrations, or test automation. If you have a project in mind, feel free to reach out.",
@@ -41,7 +41,7 @@ export default createI18n({
     pt: {
       about_me: 'Sobre mim',
       description:
-        'Olá! Sou Douglas Winter, desenvolvedor e Analista de QA na Apollus EHS. Curso Análise e Desenvolvimento de Sistemas no Instituto Federal do RS. Na área de qualidade, atuo com testes manuais, validação de APIs com Postman e mapeamento de fluxos críticos. No desenvolvimento, tenho experiência com Java, Spring Boot e SQL no back-end, TypeScript com React, Next.js e Vue no front-end, Flutter para mobile e Node.js com Docker.',
+        'Olá! Sou Douglas Winter, desenvolvedor e Analista de QA. Curso Análise e Desenvolvimento de Sistemas no Instituto Federal do RS. Na área de qualidade, atuo com testes manuais, validação de APIs com Postman e mapeamento de fluxos críticos. No desenvolvimento, tenho experiência com Java, Spring Boot e SQL no back-end, TypeScript com React, Next.js e Vue no front-end, Flutter para mobile.',
       freelance_title: 'Disponível para Freelance',
       freelance_description:
         'Estou aberto a projetos freelance — desenvolvimento web, apps mobile, integrações de API ou automação de testes. Se você tem um projeto em mente, fique à vontade para entrar em contato.',
